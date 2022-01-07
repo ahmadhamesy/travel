@@ -1,0 +1,73 @@
+$my-danger:#b86d07;
+$my-yello:#e7f711;
+$my-primery:#007bff;
+.btn .btn-outline-success{
+    color:$my-primery !important;
+    border-color: $my-primery !important;
+}
+section.features ul li{
+    color: $my-primery !important;
+    margin-left: 15px;
+}
+section.contacts .info ul li{
+    font-size: 18px;
+    line-height: 25px;
+    color: $my-primery !important;
+    margin-bottom: 15px;
+}
+section.contacts .form form button{
+    background-color: $my-primery !important;
+    font-family: ar-font;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 0;
+    margin-bottom: 30px;
+}
+section.contacts .form form .error{
+    color:$my-primery !important;
+}
+footer .top-footer ul.social li a:hover i{
+    background-color: $my-primery !important;
+}
+
+section.slider .carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border: 1px solid $my-danger !important;
+    border-radius: 50%;
+}
+section.slider .carousel-indicators li.active{
+    background-color: $my-danger !important;
+}
+section.slider .carousel-control-next .seco,
+section.slider .carousel-control-prev .seco{
+    width: 70px;
+    height: 70px;
+    border: 1px solid $my-yello !important;
+    border-radius: 50%;
+    color: $my-yello !important;
+    opacity: 1;
+    margin-top: 130px;
+}
+section.slider .carousel-indicators li.secondd{
+    width: 20px;
+    height: 20px;
+    border: 1px solid $my-yello !important;
+    border-radius: 50%;
+}
+section.slider .carousel-indicators li.active.secondd{
+    background-color: $my-yello !important;
+}
+section.slider .carousel-control-next.seco,
+section.slider .carousel-control-prev.seco{
+    width: 70px;
+    height: 70px;
+    border: 1px solid $my-yello !important;
+    border-radius: 50%;
+    color: $my-yello !important;
+    opacity: 1;
+    margin-top: 130px;
+}

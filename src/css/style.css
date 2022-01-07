@@ -21,6 +21,18 @@ section.section2{
 .navbar .navbar-header .btn{
     margin-left: 50p;
 }
+section.travel .firstegept{
+    max-width: 47%;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section.travel .secondturky{
+    max-width: 47%;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 section.features h2{
     margin-bottom: 50px;
@@ -30,6 +42,10 @@ section.features h2{
 }
 section.features ul li{
     color: #007bff;
+    margin-left: 15px;
+}
+section.features ul li.li2{
+    margin-right: 15px;
 }
 section.features{
     padding: 100px 0;
@@ -243,15 +259,30 @@ footer .copyright{
     .navbar-brand{
         margin-left:35rem;
     }
+    section.contacts .info{
+        margin-right: 100px;
+    }
 }
 @media(max-width:990px){
     .navbar-brand{
         margin-left:22rem;
  }
+ section.contacts .info{
+    margin-right: 100px;
+ }
 }
 @media(max-width:768px){
     .navbar-brand{
         margin-left:10rem;
+    }
+    section.contacts .info{
+        margin-right: 100px;
+    }
+    section.travel .firstegept{
+        max-width: 100%;
+    }
+    section.travel .secondturky{
+        min-width: 100%;
     }
 }
 @media(max-width:557px){

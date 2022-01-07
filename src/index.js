@@ -1,3 +1,4 @@
+import './scss/style.scss';
 import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './css/style.css';
