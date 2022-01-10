@@ -2,21 +2,14 @@ var path = require("path");
 var HtmlWebackPlugin = require("html-webpack-plugin");
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 var OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const NounProject = require('the-noun-project'),
-nounProject = new NounProject({
-    key: 'foo',
-    secret: 'bar'
-});
-
-
 module.exports = {
     entry: {
         app:'./src/index.js'
     },
     output: {
         path: path.join(__dirname, "/dist"),
-        publicPath:"",
-        filename: "main.js"
+        publicPath:'',
+        filename:"main.js",
     },
    
     mode:"development",
@@ -63,13 +56,13 @@ module.exports = {
                 {
                 loader: "file-loader",
                 options:{
-                    name:'[name].[ext]',
+                    name: '[name].[ext]',
                     outputPath: "images",
-                },
-            },
-            ],
+                }
+            }
+            ]
            },
-        ],
+        ]
     },
     plugins: [
         new HtmlWebackPlugin({

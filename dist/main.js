@@ -771,7 +771,7 @@ eval("\n\n/* eslint-disable */\nfunction normalizeUrl(pathComponents) {\n  retur
   \****************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1641668766425\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"esModule\":false,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://travel/./node_modules/@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css?");
+eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1641852059764\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"esModule\":false,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://travel/./node_modules/@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css?");
 
 /***/ }),
 
@@ -781,7 +781,7 @@ eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 16416687
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1641668766368\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"esModule\":false,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://travel/./src/css/style.css?");
+eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1641852059720\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"esModule\":false,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://travel/./src/css/style.css?");
 
 /***/ }),
 
@@ -791,7 +791,7 @@ eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 16416687
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1641668766390\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"esModule\":false,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://travel/./src/scss/style.scss?");
+eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1641852059705\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"esModule\":false,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://travel/./src/scss/style.scss?");
 
 /***/ }),
 
@@ -1138,7 +1138,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("62fb40af1b367ecdf0d4")
+/******/ 		__webpack_require__.h = () => ("6986136538fd2d83393e")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
