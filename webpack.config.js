@@ -2,6 +2,7 @@ var path = require("path");
 var HtmlWebackPlugin = require("html-webpack-plugin");
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 var OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+var ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 module.exports = {
     entry: {
         app:'./src/index.js'
@@ -64,6 +65,16 @@ module.exports = {
            },
         ]
     },
+    optimization: {
+        minimizer: [
+          "...",
+          new ImageMinimizerPlugin({
+            minimizer: {
+              implementation: ImageMinimizerPlugin.squooshMinify,
+            },
+        }),
+    ]
+},
     plugins: [
         new HtmlWebackPlugin({
             filename: "index.html",
